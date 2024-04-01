@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ZombieLand.unity
+    guid: 529cb507022236d4387129377700569d
+  - enabled: 1
+    path: Assets/GameOverScene.unity
+    guid: e4af307fbd2b8b94e935577d8c4cc274
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 63029c102b0528c4dbfb87d4d4e2eb3b, type: 2}

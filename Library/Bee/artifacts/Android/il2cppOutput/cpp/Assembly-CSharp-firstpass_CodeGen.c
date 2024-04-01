@@ -1,0 +1,98 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void Bullet_OnCollisionEnter_mC5CBFB47C2B7A3121999CC216D4FE12BE4470300 (void);
+extern void Bullet_Start_mE7EA1E7E356D5015C4A943009DF6FD1BD389856D (void);
+extern void Bullet_Update_m9AC1D970CF4BCBAD207F697577978691E995B8E4 (void);
+extern void Bullet__ctor_mCDB8F86F44EC1C009C8549B8721A8829C6A341FA (void);
+extern void userWeapon_Start_m24D88F3AE11007A4B93D883E7D2093C24C8ECC57 (void);
+extern void userWeapon_Update_m6E69900A2C920D6B6E4B3909059E72D10FEB3A1B (void);
+extern void userWeapon_OnControllerColliderHit_m6B4AC96BCC2C83E61ECA707D73CEE3253EB47181 (void);
+extern void userWeapon__ctor_m53F8B6905F809ED61FFA8326E33C1EEF2437871F (void);
+extern void ZombieGameOver_OnTriggerEnter_mD188D8ED6865E40398FC96AD8510A00CA5A4CF5D (void);
+extern void ZombieGameOver__ctor_mB9BB434A2185C8BCF044A2C31E99BD264F75A036 (void);
+extern void ReturnToZombieLand_Start_m9F317A35A04E2F8408AC9BBFA2CB66DFE701D894 (void);
+extern void ReturnToZombieLand_ReturnToZombieLandScene_mFF32FA532FFFB01039A3EE2E2CC47EAFDB2430CF (void);
+extern void ReturnToZombieLand__ctor_m664864ACCFB389BC6AF4CC898D2C9DB80687C70F (void);
+extern void ZombieIA_OnTriggerEnter_mB98B1E82536541BB3D98C9F2722A1DAAA53B60D3 (void);
+extern void ZombieIA_Start_m390944C7870B93C9213A3A8F89977301E37E0C47 (void);
+extern void ZombieIA_Update_m16AC4CD06218639788BAD0270A88FE7EDF6594A4 (void);
+extern void ZombieIA__ctor_m15CB01390F5D7398FCC30EC76294558B15D2391D (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mC7CA174A23290C34424DF6D2733D5E64B92E5977 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3C9D09F94200334DD5FA29A465481C7848AF4549 (void);
+static Il2CppMethodPointer s_methodPointers[19] = 
+{
+	Bullet_OnCollisionEnter_mC5CBFB47C2B7A3121999CC216D4FE12BE4470300,
+	Bullet_Start_mE7EA1E7E356D5015C4A943009DF6FD1BD389856D,
+	Bullet_Update_m9AC1D970CF4BCBAD207F697577978691E995B8E4,
+	Bullet__ctor_mCDB8F86F44EC1C009C8549B8721A8829C6A341FA,
+	userWeapon_Start_m24D88F3AE11007A4B93D883E7D2093C24C8ECC57,
+	userWeapon_Update_m6E69900A2C920D6B6E4B3909059E72D10FEB3A1B,
+	userWeapon_OnControllerColliderHit_m6B4AC96BCC2C83E61ECA707D73CEE3253EB47181,
+	userWeapon__ctor_m53F8B6905F809ED61FFA8326E33C1EEF2437871F,
+	ZombieGameOver_OnTriggerEnter_mD188D8ED6865E40398FC96AD8510A00CA5A4CF5D,
+	ZombieGameOver__ctor_mB9BB434A2185C8BCF044A2C31E99BD264F75A036,
+	ReturnToZombieLand_Start_m9F317A35A04E2F8408AC9BBFA2CB66DFE701D894,
+	ReturnToZombieLand_ReturnToZombieLandScene_mFF32FA532FFFB01039A3EE2E2CC47EAFDB2430CF,
+	ReturnToZombieLand__ctor_m664864ACCFB389BC6AF4CC898D2C9DB80687C70F,
+	ZombieIA_OnTriggerEnter_mB98B1E82536541BB3D98C9F2722A1DAAA53B60D3,
+	ZombieIA_Start_m390944C7870B93C9213A3A8F89977301E37E0C47,
+	ZombieIA_Update_m16AC4CD06218639788BAD0270A88FE7EDF6594A4,
+	ZombieIA__ctor_m15CB01390F5D7398FCC30EC76294558B15D2391D,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mC7CA174A23290C34424DF6D2733D5E64B92E5977,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3C9D09F94200334DD5FA29A465481C7848AF4549,
+};
+static const int32_t s_InvokerIndices[19] = 
+{
+	1031,
+	1222,
+	1222,
+	1222,
+	1222,
+	1222,
+	1031,
+	1222,
+	1031,
+	1222,
+	1222,
+	1222,
+	1222,
+	1031,
+	1222,
+	1222,
+	1222,
+	2414,
+	1222,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule = 
+{
+	"Assembly-CSharp-firstpass.dll",
+	19,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
